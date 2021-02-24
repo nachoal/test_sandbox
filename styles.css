@@ -1,0 +1,52 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  padding: 2.5rem;
+}
+.content {
+  flex: 1 0 auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 4.5rem;
+}
+
+.footer {
+  flex-shrink: 0;
+  text-align: center;
+}
+
+.quotes {
+  text-align: center;
+}
+
+.img {
+  width: 80px;
+}
+
+.btn {
+  background: #f21707;
+  border-style: none;
+  padding: 0.7rem;
+  color: white;
+  font-weight: bolder;
+  border-radius: 8px;
+}
+
+.btn:hover {
+  background: #ad0d02;
+}
+
+a[href],
+input[type="submit"],
+input[type="image"],
+label[for],
+select,
+button,
+.pointer {
+  cursor: pointer;
+}
